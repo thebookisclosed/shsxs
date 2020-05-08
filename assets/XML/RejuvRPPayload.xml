@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<migration urlid="http://www.microsoft.com/systemreset/1.0/RPSettings">
+    <component context="System" type="System">
+        <displayName _locID="Rejuv.RPPayload">System Reset RP Payload</displayName>
+        <role role="Settings">
+            <rules>
+                <include>
+                    <objectSet>
+                        <pattern type="File">%SYSTEM32% [shsxs.dll]</pattern>
+                        <pattern type="File">%SYSTEM32% [SysResetRedPill.xml]</pattern>
+                        <pattern type="Registry">HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer [RPEnabled]</pattern>
+                        <pattern type="Registry">HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer [RPInstalled]</pattern>
+                        <pattern type="Registry">HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer [RPStore]</pattern>
+                        <pattern type="Registry">HKLM\Software\Microsoft\Active Setup\Installed Components\&gt;{8E7E60C6-4CE5-476D-9E31-FD450F3F792F} [IsInstalled]</pattern>
+                        <pattern type="Registry">HKLM\Software\RegisteredApplications [Immersive Browser]</pattern>
+                        <pattern type="Registry">HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT\Certificates\7721AC1150970D0B6A4B47AAEA73770712C907C5\* [*]</pattern>
+                    </objectSet>
+                </include>
+            </rules>
+        </role>
+    </component>
+    <component context="User" type="System">
+        <displayName _locID="Rejuv.RPUserPayload">System Reset RP User Payload</displayName>
+        <role role="Settings">
+            <rules context="User">
+                <include>
+                    <objectSet>
+                        <pattern type="File">%CSIDL_LOCAL_APPDATA% [redpill.exe]</pattern>
+                        <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer [RPEnabled]</pattern>
+                        <pattern type="Registry">HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer [RPInstalled]</pattern>
+                    </objectSet>
+                </include>
+            </rules>
+        </role>
+    </component>
+</migration>

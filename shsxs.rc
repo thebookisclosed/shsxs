@@ -1,0 +1,386 @@
+#include <Windows.h>
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+6801                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-100.bmp"
+
+6802                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-125.bmp"
+
+6803                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-150.bmp"
+
+6804                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-200.bmp"
+
+6805                    BITMAP                  "assets\\Bitmap\\StartOrbLg.scale-100.bmp"
+
+6806                    BITMAP                  "assets\\Bitmap\\StartOrbLg.scale-125.bmp"
+
+6807                    BITMAP                  "assets\\Bitmap\\StartOrbLg.scale-150.bmp"
+
+6808                    BITMAP                  "assets\\Bitmap\\StartOrbLg.scale-200.bmp"
+
+6809                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-100.bmp"
+
+6810                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-125.bmp"
+
+6811                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-150.bmp"
+
+6812                    BITMAP                  "assets\\Bitmap\\StartOrbSm.scale-200.bmp"
+
+6813                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorIdle.bmp"
+
+6814                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorHover.bmp"
+
+6815                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorIdle.bmp"
+
+6816                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorHover.bmp"
+
+6817                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorIdle.bmp"
+
+6818                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorHover.bmp"
+
+6819                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorIdle.bmp"
+
+6820                    BITMAP                  "assets\\Bitmap\\SetHomeMonitorHover.bmp"
+
+17543                   BITMAP                  "assets\\Bitmap\\PicPwdProviderSm.bmp"
+
+17544                   BITMAP                  "assets\\Bitmap\\PicPwdProviderLg.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// FTR
+//
+
+17555                   FTR                     "assets\\FTR\\PicPwdTeachingAnim.bin"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+3                       ICON                    "assets\\Icon\\FolderThumbBg.ico"
+
+4                       ICON                    "assets\\Icon\\FolderThumbBg.ico"
+
+5                       ICON                    "assets\\Icon\\FolderThumbNoDir.ico"
+
+6                       ICON                    "assets\\Icon\\Blank.ico"
+
+162                     ICON                    "assets\\Icon\\FolderThumbWithDir.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IMAGE
+//
+
+17509                   IMAGE                   "assets\\Image\\PicPwdSetup1_Touch.png"
+
+17510                   IMAGE                   "assets\\Image\\PicPwdSetup1_CircleGesture.png"
+
+17511                   IMAGE                   "assets\\Image\\PicPwdSetup1_LineGesture.png"
+
+17525                   IMAGE                   "assets\\Image\\FwdGlyphShort.png"
+
+17535                   IMAGE                   "assets\\Image\\PicPwdSetup2_Touch.png"
+
+17536                   IMAGE                   "assets\\Image\\PicPwdSetup2_LineGesture.png"
+
+17537                   IMAGE                   "assets\\Image\\PicPwdSetup2_CircleGesture.png"
+
+17577                   IMAGE                   "assets\\Image\\PicPwdSetup2_Preview.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+5220                    PNG                     "assets\\PNG\\AccentGradient.png"
+
+5230                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5231                    PNG                     "assets\\PNG\\WdpAccentLg.png"
+
+5232                    PNG                     "assets\\PNG\\WdpAccentSm.png"
+
+5233                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5234                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5235                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5236                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5237                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5238                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5239                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5240                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5241                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5242                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5243                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5244                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5245                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5246                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5247                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5248                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5249                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5250                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5251                    PNG                     "assets\\PNG\\PlaceholderAccentThumb.png"
+
+5252                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+5253                    PNG                     "assets\\PNG\\PlaceholderAccentLg.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+1                       RCDATA                  "assets\\RCData\\HexSuccession32.bin"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// UIFILE
+//
+
+3501                    UIFILE                  "assets\\UiFile\\LauncherGen1.dui.xml"
+
+3520                    UIFILE                  "assets\\UiFile\\LauncherGen2.dui.xml"
+
+3521                    UIFILE                  "assets\\UiFile\\LauncherGen3.dui.xml"
+
+3522                    UIFILE                  "assets\\UiFile\\LauncherGen4.dui.xml"
+
+3523                    UIFILE                  "assets\\UiFile\\LauncherGen5.dui.xml"
+
+6001                    UIFILE                  "assets\\UiFile\\ToastHostGen1.dui.xml"
+
+6002                    UIFILE                  "assets\\UiFile\\ToastHostGen2.dui.xml"
+
+6003                    UIFILE                  "assets\\UiFile\\ToastHostGen3.dui.xml"
+
+9701                    UIFILE                  "assets\\UiFile\\DockedDesktopGen1.dui.xml"
+
+9702                    UIFILE                  "assets\\UiFile\\DockedDesktopGen2.dui.xml"
+
+9703                    UIFILE                  "assets\\UiFile\\DockedDesktopGen3.dui.xml"
+
+9704                    UIFILE                  "assets\\UiFile\\DockedDesktopGen4.dui.xml"
+
+17502                   UIFILE                  "assets\\UiFile\\PicturePasswordGen1.dui.xml"
+
+17542                   UIFILE                  "assets\\UiFile\\PicturePasswordGen2.dui.xml"
+
+17549                   UIFILE                  "assets\\UiFile\\PicturePasswordGen3.dui.xml"
+
+17563                   UIFILE                  "assets\\UiFile\\PicturePasswordGen4.dui.xml"
+
+17576                   UIFILE                  "assets\\UiFile\\PicturePasswordGen5.dui.xml"
+
+17578                   UIFILE                  "assets\\UiFile\\PicturePasswordGen6.dui.xml"
+
+17582                   UIFILE                  "assets\\UiFile\\PicturePasswordGen7.dui.xml"
+
+30000                   UIFILE                  "assets\\UiFile\\TaskManagerGen1.dui.xml"
+
+30020                   UIFILE                  "assets\\UiFile\\TaskManagerGen2.dui.xml"
+
+30021                   UIFILE                  "assets\\UiFile\\TaskManagerGen3.dui.xml"
+
+30022                   UIFILE                  "assets\\UiFile\\TaskManagerGen4.dui.xml"
+
+30023                   UIFILE                  "assets\\UiFile\\TaskManagerGen5.dui.xml"
+
+30024                   UIFILE                  "assets\\UiFile\\TaskManagerGen6.dui.xml"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XML
+//
+
+1000                    XML                     "assets\\XML\\RejuvRPPayload.xml"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+STRINGTABLE
+BEGIN
+    2109                    "Picture password"
+    2110                    "Create a picture password"
+END
+
+STRINGTABLE
+BEGIN
+    3502                    "Start menu window"
+    3503                    "Invoke to learn more and change settings for this network"
+END
+
+STRINGTABLE
+BEGIN
+    3504                    "Results for '%s'"
+    3505                    "Tile updates are limited on this network"
+    3506                    "Results for """
+    3507                    """ (%d)"
+    3510                    "12pt;Light;None;Segoe UI"
+    3511                    "42pt;Light;None;Segoe UI Light"
+    3512                    "20pt;Light;None;Segoe UI Light"
+    3513                    "9pt;Light;None;Segoe UI"
+END
+
+STRINGTABLE
+BEGIN
+    17500                   "To make changes to your account, we need to verify your current Windows password."
+    17501                   "Use a picture password"
+    17503                   "Welcome to picture password"
+END
+
+STRINGTABLE
+BEGIN
+    17504                   "Choose picture"
+    17505                   "It's time to create your password with a series of gestures. Please choose an image, and then you will be able to create a secret set of gesture which you can then use to logon to your account."
+    17506                   "You can tap"
+    17507                   "You can circle, remember direction matters"
+    17508                   "You can draw a line, again direction matters"
+    17512                   "Set up your picture password"
+    17513                   "Drag your picture to position it the way you want."
+    17514                   "Use this picture"
+    17515                   "Choose a different picture"
+    17516                   "Draw three gestures on your picture. You can use any combination of circles, straight lines, and taps."
+    17517                   "Remember, the size, position, and direction of your gestures -- and the order in which you make them -- become part of your picture password."
+    17518                   "Enter your first gesture"
+    17519                   "First gesture entered"
+END
+
+STRINGTABLE
+BEGIN
+    17520                   "Enter your second gesture"
+    17521                   "Second gesture entered"
+    17522                   "Enter your third gesture"
+    17523                   "Third gesture entered"
+    17524                   "To finish setting up your picture password, just repeat your three gestures. (You can always start over by clicking the Start over button.)"
+    17526                   "Start Over"
+    17527                   "Re-enter your first gesture"
+    17528                   "Re-enter your second gesture"
+    17529                   "Re-enter your third gesture"
+    17530                   "Exit"
+    17531                   "You've successfully created a picture password. Use it the next time you log on to Windows."
+    17532                   "Accept"
+    17533                   "Reset picture password"
+    17534                   "The gestures you entered did not match. To confirm your picture password, re-enter your gestures again in the same order you entered them"
+END
+
+STRINGTABLE
+BEGIN
+    17538                   "Replay"
+    17539                   "OK"
+    17540                   "To confirm your current picture password, just watch the replay and trace the example gestures shown on your picture."
+    17541                   "Try making your gestures again."
+    17545                   "Enter your picture password gestures to log on."
+    17546                   "Picture Password Credential Provider"
+    17547                   "Your picture password enrollment contains an old password. Please logon with your new password and reenroll."
+    17548                   "Your login information was incorrect."
+    17550                   "Enrollment Failure"
+    17551                   "There was a failure during the enrollment process. Please try again later."
+END
+
+STRINGTABLE
+BEGIN
+    17552                   "Picture password is a new way to help you protect your touchscreen PC. You choose the picture -- and the gestures you use with it -- to create a password that's uniquely yours."
+    17553                   "When you've chosen a picture, you ""draw"" directly on the touchscreen to create a combination of taps, straight lines, or circles. The size, position, and direction of your gestures become part of your picture password."
+    17554                   "The size, position, and direction of your gestures will be recorded as part of your password."
+    17556                   "Begin by selecting your picture."
+    17557                   "You can keep your current picture and change your gestures, or choose a new picture."
+    17559                   "Congratulations, you have successfully relearned your picture password."
+    17560                   "Congratulations, you have successfully changed your picture password."
+    17561                   "Relearn your picture password"
+    17562                   "Change your picture password"
+    17564                   "1"
+    17565                   "2"
+    17566                   "3"
+    17567                   "How's this look?"
+END
+
+STRINGTABLE
+BEGIN
+    17568                   "Set up your gestures"
+    17569                   "Confirm your picture password"
+    17570                   "Something's not right... try again!"
+    17571                   "Reenter your current gestures"
+    17572                   "Need a hint? Just trace the examples shown on your picture."
+    17573                   "If you've forgotten your current set of gestures, click Replay to see them."
+    17574                   "Congratulations!"
+    17579                   "Sorry, but your confirmation gestures didn't quite match the ones you drew. You can try again to see the gestures you first entered, or start over to choose new ones."
+    17580                   "Try again"
+    17581                   "Something's not right"
+END
+
+STRINGTABLE
+BEGIN
+    33841                   "Cached"
+    33849                   "Free"
+    33852                   "In Use"
+END
+
+STRINGTABLE
+BEGIN
+    34216                   "Pane Splitter"
+    34220                   "Chart Scale"
+    34222                   "Tab Control"
+    34223                   "Charts"
+END
+
+STRINGTABLE
+BEGIN
+    34224                   "Tables"
+END
+
+STRINGTABLE
+BEGIN
+    34480                   "Combobox"
+END
+
+STRINGTABLE
+BEGIN
+    37201                   "Row Details"
+    37204                   "Click to Expand"
+    37205                   "Click to Collapse"
+    37208                   "List of Items"
+    37209                   "Change view"
+END
+
+STRINGTABLE
+BEGIN
+    37222                   "View"
+END
+
+STRINGTABLE
+BEGIN
+    38001                   "&End Task"
+END
