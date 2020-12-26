@@ -408,20 +408,23 @@ extern "C" HRESULT __stdcall RP_InitSystemSetting()
 	return duiCallRes;
 }
 
-extern "C" int __stdcall RP_InitializeFeedbackRegion(HDC hdc, RECT pRect, UINT color)
+extern "C" int __stdcall RP_InitializeFeedbackRegion(HDC hDC, const RECT* lprc, COLORREF cRef)
 {
-	BYTE alpha = (color & 0xFF000000) >> 24;
-	UINT colorRecalc = ((alpha * (color & 0x00FF0000) >> 16) / 255) | 
-		((alpha * (color & 0x0000FF00) >> 8) / 255) << 8 |
-		(alpha * (color & 0x000000FF)) / 255 << 16 |
-		(color & 0xFF000000);
-	BITMAPINFO bmi = { 0 };
+	BITMAPINFO bmi;
+	memset(&bmi, 0, sizeof(BITMAPINFO));
 	bmi.bmiHeader.biSize = sizeof(BITMAPINFOHEADER);
 	bmi.bmiHeader.biWidth = 1;
 	bmi.bmiHeader.biHeight = 1;
 	bmi.bmiHeader.biPlanes = 1;
 	bmi.bmiHeader.biBitCount = 32;
-	return StretchDIBits(hdc, pRect.left, pRect.top, pRect.right - pRect.left, pRect.bottom - pRect.top, 0, 0, 1, 1, &colorRecalc, &bmi, 0, 0xCC0020);
+
+	BYTE alpha = (cRef >> 24) & 0xFF;
+	RGBQUAD color;
+	color.rgbRed = alpha * GetRValue(cRef) / 0xFF;
+	color.rgbGreen = alpha * GetGValue(cRef) / 0xFF;
+	color.rgbBlue = alpha * GetBValue(cRef) / 0xFF;
+	color.rgbReserved = alpha;
+	return StretchDIBits(hDC, lprc->left, lprc->top, lprc->right - lprc->left, lprc->bottom - lprc->top, 0, 0, 1, 1, &color, &bmi, 0, SRCCOPY);
 }
 
 extern "C" UINT __stdcall RP_PrivateExtractIconsW(LPCWSTR szFileName, int nIconIndex, int cxIcon, int cyIcon, HICON *phicon, UINT *piconid, UINT nIcons, int flags)
